@@ -9,3 +9,11 @@ let getPlus = () => {
   counter += 1;
   result.textContent = counter;
 };
+
+let getMinus = () => {
+    counter -= 1;
+    result.textContent = counter;
+  };
+  
+buttonPlus.addEventListener("click", getPlus);
+buttonMinus.addEventListener("click", getMinus);
